@@ -1,0 +1,6 @@
+version: '3'
+
+tasks:
+  2024-1:
+    cmds:
+      - go run ./2024/01
