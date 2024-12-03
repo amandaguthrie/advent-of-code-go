@@ -147,6 +147,5 @@ func invalidReportStats(report []int) (numInvalidLevels int, invalidLevelLocatio
 func removeIndex(slice []int, index int) []int {
 	newSlice := make([]int, len(slice))
 	copy(newSlice, slice)
-	newSlice = slices.Clip(slices.Delete(newSlice, index, index+1))
-	return newSlice
+	return slices.Clip(slices.Delete(newSlice, index, index+1))
 }

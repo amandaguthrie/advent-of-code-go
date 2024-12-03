@@ -19,7 +19,7 @@ func main() {
 }
 
 func processInput() []string {
-	file, err := os.ReadFile("./2024/_/example.txt")
+	file, err := os.ReadFile("./2024/_/example-part1.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
