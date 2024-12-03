@@ -1,9 +1,9 @@
-// [Advent of Code: 2024: Day 2:]
+// [Advent of Code: 2024: Day 2: Red-Nosed Reports]
 //
 // Part 1 Example Expected: 2
 // Part 2 Example Expected: 4
 //
-// [Advent of Code: 2024: Day 2:]: https://adventofcode.com/2024/day/2
+// [Advent of Code: 2024: Day 2: Red-Nosed Reports]: https://adventofcode.com/2024/day/2
 
 package main
 
