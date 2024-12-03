@@ -4,12 +4,12 @@ Revisiting [Go][] this year (2024) for [Advent of Code][].
 
 ## 2024
 
-| Advent of Code Link                       | Solution                             |
-|-------------------------------------------|--------------------------------------|
-| [Day 01](https://adventofcode.com/2024/1) | [Day 01 Solution](./2024/01/main.go) |
-| [Day 02](https://adventofcode.com/2024/2) | [Day 02 Solution](./2024/02/main.go) |
-| [Day 03](https://adventofcode.com/2024/3) | [Day 03 Solution](./2024/03/main.go) |
-| [Day 04](https://adventofcode.com/2024/4) | [Day 04 Solution](./2024/04/main.go) |
+| Advent of Code Link                           | Solution                             |
+|-----------------------------------------------|--------------------------------------|
+| [Day 01](https://adventofcode.com/2024/day/1) | [Day 01 Solution](./2024/01/main.go) |
+| [Day 02](https://adventofcode.com/2024/day/2) | [Day 02 Solution](./2024/02/main.go) |
+| [Day 03](https://adventofcode.com/2024/day/3) | [Day 03 Solution](./2024/03/main.go) |
+| [Day 04](https://adventofcode.com/2024/day/4) | [Day 04 Solution](./2024/04/main.go) |
 
 <!-- External Links -->
 
