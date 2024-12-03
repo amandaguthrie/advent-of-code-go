@@ -1,9 +1,9 @@
-// [Advent of Code: 2024: Day _: _]
+// [Advent of Code: 2024: Day 4: _]
 //
 // Part 1 Example Expected:
 // Part 2 Example Expected:
 //
-// [Advent of Code: 2024: Day _: _]: https://adventofcode.com/2024/day/_
+// [Advent of Code: 2024: Day 4: _]: https://adventofcode.com/2024/day/4
 
 package main
 
@@ -33,7 +33,7 @@ func part2() []string {
 }
 
 func processInput() []string {
-	file, err := os.ReadFile("./2024/_/example.txt")
+	file, err := os.ReadFile("./2024/04/example.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

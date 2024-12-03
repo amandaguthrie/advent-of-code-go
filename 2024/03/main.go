@@ -41,7 +41,7 @@ func processInput(filePath string, part2 bool) [][]string {
 	parsed := string(file)
 	if part2 {
 		reRemoveDont := regexp.MustCompile(`(?s)don't\(\).*?do\(\)|$`)
-		parsed = reRemoveDont.ReplaceAllString(string(file), "")
+		parsed = reRemoveDont.ReplaceAllString(parsed, "")
 	}
 
 	reMul := regexp.MustCompile(`mul\((?P<mul1>\d{1,3}),(?P<mul2>\d{1,3})\)`)
