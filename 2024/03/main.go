@@ -21,30 +21,31 @@ func main() {
 }
 
 func part1() int {
-	muls := processInput("./2024/03/example-part1.txt")
+	muls := processInput("./2024/03/example-part1.txt", false)
 
 	return sumProducts(muls)
 }
 
 func part2() int {
-	muls := processInput("./2024/03/example-part2.txt")
+	muls := processInput("./2024/03/example-part2.txt", true)
 
 	return sumProducts(muls)
 }
 
-func processInput(filePath string) [][]string {
+func processInput(filePath string, part2 bool) [][]string {
 	file, err := os.ReadFile(filePath)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// Part 2
-	reRemoveDont := regexp.MustCompile(`(?s)don't\(\).*?do\(\)|$`)
-	removeDont := reRemoveDont.ReplaceAllString(string(file), "")
+	parsed := string(file)
+	if part2 {
+		reRemoveDont := regexp.MustCompile(`(?s)don't\(\).*?do\(\)|$`)
+		parsed = reRemoveDont.ReplaceAllString(string(file), "")
+	}
 
-	// Part 1
 	reMul := regexp.MustCompile(`mul\((?P<mul1>\d{1,3}),(?P<mul2>\d{1,3})\)`)
-	return reMul.FindAllStringSubmatch(removeDont, -1)
+	return reMul.FindAllStringSubmatch(parsed, -1)
 }
 
 func sumProducts(muls [][]string) int {
