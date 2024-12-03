@@ -4,3 +4,6 @@ tasks:
   2024-1:
     cmds:
       - go run ./2024/01
+  2024-2:
+    cmds:
+      - go run ./2024/02
