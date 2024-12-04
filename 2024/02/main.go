@@ -50,7 +50,7 @@ func part2() int {
 }
 
 func processInput() [][]int {
-	file, err := os.ReadFile("./2024/02/input.txt")
+	file, err := os.ReadFile("./2024/02/example.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
