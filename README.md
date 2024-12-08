@@ -13,6 +13,7 @@ Revisiting [Go][] this year (2024) for [Advent of Code][].
 | [Day 05](https://adventofcode.com/2024/day/5) | [Day 05 Solution](./2024/05/main.go) | ⭐⭐     |
 | [Day 06](https://adventofcode.com/2024/day/6) | [Day 06 Solution](./2024/06/main.go) | 🔲🔲   |
 | [Day 07](https://adventofcode.com/2024/day/7) | [Day 07 Solution](./2024/07/main.go) | ⭐⭐     |
+| [Day 08](https://adventofcode.com/2024/day/8) | [Day 08 Solution](./2024/08/main.go) | 🔲🔲     |
 
 <!-- External Links -->
 
